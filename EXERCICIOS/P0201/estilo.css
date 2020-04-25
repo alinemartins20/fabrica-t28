@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(253, 253, 253);
+    font-family: sans-serif;
+    color: rgb(59, 59, 59)
+    }
+.mensagem {
+    text-align: center;
+    margin:  150px auto 50px auto;
+    width: 30%;
+    font-size: 20pt;
+    line-height: 1.5;
+}
+.botoes {
+    display: flex;
+    justify-content: center; 
+    /* alinhar os botoes */
+
+}
+.botoes button {
+    font-size: 15pt;
+    background-color: white;
+    padding: 30px;
+    margin-left: -1;
+    /* sobrepor os botoes */
+    outline: none;
+    /* tirar o efeito azul quando clica */
+    border-color: lightgray;
+    border-style: solid;
+    /* para não marcar a borda quando clica nos botões  */
+    cursor: pointer;
+    /* mudar o cursor quando passar no botão  */
+}
+.botoes button:active {
+    background-color: lightslategray;
+    color: white;
+}
+.function {
+    background-color: black;
+}

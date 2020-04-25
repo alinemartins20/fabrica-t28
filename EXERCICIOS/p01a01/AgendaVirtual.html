@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="uft-8" />
+<title>Agenda Virtual</title>
+<style>
+    button{
+        background:linear-gradient(to bottom right, gray, darkred);
+        color: white;
+        text-transform: uppercase;
+        border:none;
+        display: block;
+        width: 20%;
+        margin: 10px auto 10px auto;
+        border-radius: 17px;
+        height: 1cm;
+        padding: 10px 20px 10px 20px;
+        border-width: 1.2px;
+        transition: 1s;
+    }
+    button:hover {
+background: grey;
+transform: scale(2);
+    }
+    input{
+        display: block;
+        width: 20%;
+        margin: 10px auto 10px auto;
+        height: 1cm;
+        border-radius: 17px;
+        background-color: transparent;
+        border-color: white;
+        border-style: solid;
+        color: white;
+        border-width: 1.2px;
+        padding: 10px 20px 10px 20px; 
+        
+    }
+    input::placeholder{
+        color: white;
+    }
+    a{
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        font-size: 10pt
+    }
+    h1{
+        text-align: center;
+        color: white;
+        margin-top: 150px;
+        font-weight: lighter;
+        
+    }
+    body{
+        background-image: url(imagem.jpg);
+        background-size: 100%;
+        font-family: sans-serif;
+    }   
+    div{
+        width: fit-content;
+        width: -moz-fit-content;
+        /* esse recurso para mozilla */
+        margin: auto;
+        margin-top: 10px;
+    }
+    .texto-bordo{
+        color:darkred;
+    }   
+</style>
+</head>
+<body>
+    <h1>Agenda Virtual</h1>
+    <input type="email" placeholder="Email">
+    <input type="password" placeholder="Senha">
+    <button>Entrar</button>
+    <div>
+        <a href="https://google.com">Esqueci minha senha</a>   
+    </div>
+    <div>
+        <a class="texto-bordo" href="https://google.com">Criar Conta</a>
+    </div>
+    <div>
+        <a class="texto-bordo" href="https://google.com">Deixe seu comentário</a>
+    </div>
+</body>
+</html>

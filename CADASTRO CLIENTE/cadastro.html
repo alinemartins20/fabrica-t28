@@ -1,0 +1,67 @@
+<html lang="pt-br">
+<heat>
+    <title>Cadastro de Cliente</title>
+    <meta charset="uft-8">
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js"></script>
+</heat>
+
+<body>
+    <div class="alerta">
+        <img src="tick.svg" alt="icone do alerta">
+        <p>Mensagem do Alerta</p>
+    </div>
+    <div>
+        <img onclick="fecharAlerta()" src="close.svg" alt="icone de fechar">
+    </div>
+
+    <h1 class="titulo">Cadastro de Cliente</h1>
+
+    <form class="formulario">
+        <fieldset>
+            <legend>informações Pessoais</legend>
+            <div>
+                <label for="">Nome:</label>
+                <input id="nome" type="text" placeholder="Joao da Silva">
+            </div>
+            <div>
+                <label for="">E-mail:</label>
+                <input id="email" type="email" placeholder="Ex: joao@gmail.com">
+            </div>
+            <div>
+                <label for="">CPF:</label>
+                <input id="cpf" type="" placeholder="999.999.999-99">
+            </div>
+            <div>
+                <label for="estado">Estado</label>
+                <select id="estado">
+                    <option value="">Selecione um estado</option>
+                    <optgroud label="Sugerido">
+                        <legend>Sugerido</legend>
+                        <option value="MS">Mato Grosso do Sul</option>
+                    </optgroud>
+                    <option value="MT">Mato Grosso></option>
+                    <option value="MS">Mato Grosso do Sul></option>
+                    <option value="SP">São Paulo</option>
+                </select>
+            </div>
+            <fieldset>
+                <legend>Informações do curso</legend>
+                </div>
+                <input id="presencial" type="radio" value="1" name="modalidade" autocomplete="off">
+                <label for="presencial">Presencial</label>
+                </div>
+                <div>
+                    <input id="online" type="radio" value="2" name="modalidade" autocomplete="off">
+                    <label for="online">Online</label>
+                </div>
+            </fieldset>
+            <div class="botoes">
+                <button onclick="salvar()" type="button" class="salvar">Salvar</button>
+            </div>
+    </form>
+    <pre id="resultado"></pre>
+
+</body>
+
+</html>
