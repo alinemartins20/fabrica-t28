@@ -5,6 +5,8 @@ body {
 .titulo {
     text-align: center;
     font-weight: 300;
+    margin-top: 100px;
+    margin-bottom: 30px;
 
     border-bottom: 50px;
 }
@@ -30,9 +32,10 @@ border:none;
 .botao button {
     background-color: blue;
     color: white;
-    padding: 10px;
-    font-size: 18pt;
+    padding: 10px 20px;
+    font-size: 12pt;
     width: 25%;
+    right: 15px;
     border-radius: 20px;
 
 }
