@@ -1,11 +1,13 @@
-let convidados = ["Jão da Silva, Maria da Silva"]
+let convidados = []
 
 function adicionar() {
-    //pegar o valor
+    //1-pegar o valor
     let nome = document.getElementById("nome").value
-    //adcionar no vetor
-    convidados.push(nome)
-    //atualizar o html
+    let idade = document.getElementById("idade").value
+    let email = document.getElementById("email").value
+    //2-adcionar no vetor
+    convidados.push({ nome, idade,email })
+    //3-atualizar o html
     atualizarLista()
 }
 function atualizarLista () {
