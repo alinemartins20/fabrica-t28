@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.formulario {
+    width: 40%;
+    border: 5px solid lightgray;
+    margin: auto;
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 50px;
+}
+.formulario input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    border: .5px solid lightgrey;
+    border-radius: 5px;
+      
+}
+
+.formulario button {
+    padding: 10px 20px;
+    border: none;
+    background-color: rgb(63, 63, 244);
+    color: white;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+}
+.titulo {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 400;
+}
